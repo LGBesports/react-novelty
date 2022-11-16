@@ -95,7 +95,15 @@
     
 }
 @media(max-width:920px){
-
+    .footer__right {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        margin-left: 24px;
+        margin-right: 24px;
+        max-width: 300px;
+    }
     .footer__wrapper {
         display: flex;
         justify-content: space-between;
