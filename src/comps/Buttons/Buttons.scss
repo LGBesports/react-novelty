@@ -1,0 +1,105 @@
+.call-blue{
+    padding: 14px 14px 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    background: #3B9DD3;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    /* or 100% */
+    transition: 0.2s;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+}
+.call-white{
+    padding: 14px 14px 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
+    /* or 100% */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #3494C8;
+}
+.call-blue:hover{
+    background: #52AEE0;
+    transition: 0.2s;
+}
+@media (max-width:1400px){
+    .call-blue {
+        padding: 10px 10px 10px 12px !important;
+        display: flex;
+        align-items: center;
+        gap: 14px !important;
+        background: #3B9DD3;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 14px !important;
+        transition: 0.2s;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .call-white {
+        padding: 10px 10px 10px 12px !important;
+        display: flex;
+        align-items: center;
+        gap: 14px !important;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 14px !important;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #3494C8;
+    }
+}
+@media (max-width:920px){
+    .call-blue{
+        padding: 14px 14px 14px 16px;
+        display: flex;
+        align-items: center;
+        gap: 27px;
+        background: #3B9DD3;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 19px;
+        /* or 100% */
+        transition: 0.2s;
+        text-align: center;
+        letter-spacing: -0.02em;
+        
+        color: #FFFFFF;
+    }
+    .call-white{
+        padding: 14px 14px 14px 16px !important; 
+        display: flex;
+        align-items: center;
+        gap: 27px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 19px;
+        /* or 100% */
+        
+        text-align: center;
+        letter-spacing: -0.02em;
+        
+        color: #3494C8;
+    }
+}

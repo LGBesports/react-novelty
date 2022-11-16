@@ -1,0 +1,183 @@
+.about-main {
+    background: url(../../img/about-main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 47px 0;
+    margin-bottom: 87px;
+    filter: drop-shadow(0px 17px 60px rgba(32, 32, 32, 0.11));
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        .left {
+            max-width: 37%;
+            p {
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 114.5%;
+                /* or 22px */
+
+                letter-spacing: -1px;
+
+                color: #ffffff;
+                b {
+                    font-weight: 700;
+                }
+            }
+        }
+        .right {
+            max-width: 67%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 104%;
+        /* or 54px */
+
+        letter-spacing: -1.5px;
+
+        color: #ffffff;
+        margin-bottom: 11px;
+    }
+}
+.mission__left{
+    button{
+        display: none;
+    }
+}
+@media (max-width: 920px) {
+    .about-main__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-main__wrapper .left {
+        max-width: 100%;
+    }
+    .about-main__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 104%;
+        /* or 37px */
+
+        letter-spacing: -1.5px;
+
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+    .about-main__wrapper .left p b {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 114.5%;
+        /* or 23px */
+        display: inline !important;
+        letter-spacing: -1.5px;
+        color: #ffffff;
+    }
+    .about-main__wrapper .right {
+        max-width: 100%;
+    }
+    .about-main__wrapper .right img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: -97px;
+    }
+    .mission__left {
+        width: 100% !important;
+        background: #ffffff;
+        border-radius: 17px;
+        padding: 25px 25px 36px 25px !important;
+    }
+    .mission__left svg {
+        margin-bottom: 12px;
+        width: 90px;
+        height: 40px;
+    }
+    .mission__left h3 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 104%;
+        letter-spacing: -1.5px;
+        margin-bottom: 14px;
+        color: #505457;
+    }
+
+    .mission__left button {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 114.5%;
+        /* or 22px */
+
+        letter-spacing: -1px;
+        opacity: 0;
+        display: contents;
+        color: #505457;
+        span {
+            display: none;
+        }
+        b {
+            text-decoration: underline;
+        }
+    }
+    .mission__left button.bg-salmon {
+        display: contents;
+        text-decoration: none;
+        pointer-events: none;
+        span {
+            display: inline;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 114.5%;
+            /* or 22px */
+            text-decoration: none;
+            letter-spacing: -1px;
+
+            color: #505457;
+        }
+        b {
+            display: none;
+        }
+    }
+    .mission__right .r img {
+        display: none;
+    }
+    .mission__right {
+        background: #ffffff;
+        border-radius: 17px;
+        width: 100%;
+        padding-left: 24px;
+        padding-bottom: 32px;
+        display: block;
+        justify-content: space-between;
+    }
+    .mission__right .l h3 {
+        br {
+            display: none;
+        }
+    }
+    .mission__right .l ul li {
+        font-weight: 600;
+        font-size: 18px !important;
+        line-height: 103.5% !important;
+        /* or 19px */
+        white-space: nowrap;
+        letter-spacing: -1px;
+        
+        color: #505457;
+        
+        
+    }
+    .about-main{
+        background-position: top  left -438px;
+        background-size: auto;
+    }
+}

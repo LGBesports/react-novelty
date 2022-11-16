@@ -1,0 +1,399 @@
+.whywe {
+    position: relative;
+    .bg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: -100px;
+        left: 0;
+    }
+    &__wrapper {
+        padding-bottom: 145px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__item {
+        width: 685px;
+        background: #f9f9f9;
+        border-radius: 17px;
+        p {
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 114.5%;
+            /* or 19px */
+
+            letter-spacing: -1px;
+
+            color: #728d9b;
+
+            b {
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 114.5%;
+                /* or 22px */
+
+                letter-spacing: -1px;
+
+                color: #728d9b;
+            }
+        }
+    }
+    &__item1 {
+        padding-top: 43px;
+        padding-bottom: 34px;
+        padding-right: 80px;
+        padding-left: 30px;
+        background: url(../../img/whywe-gradient.svg), #f9f9f9;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: top 12px center;
+        h2 {
+            text-align: center;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 128px;
+            margin-right: 16px;
+            margin-bottom: 60px;
+            line-height: 104%;
+            /* identical to box height, or 50px */
+
+            letter-spacing: -1.5px;
+
+            color: #439aca;
+            b {
+                font-weight: 600;
+                font-size: 48px;
+            }
+        }
+    }
+    &__item2 {
+        background: none;
+        display: flex;
+        gap: 35px;
+        .left {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            gap: 17px;
+            width: calc(50% - 17.5px);
+            .whywe__item {
+                width: 100%;
+                height: calc(50% - 17px / 2);
+            }
+        }
+        .right {
+            width: calc(50% - 17.5px);
+            .whywe__item {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__item2-1 {
+        padding: 28px 18px 23px 28px;
+        svg {
+            width: 54px;
+            height: 30px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 114.5%;
+            /* or 22px */
+
+            letter-spacing: -1px;
+
+            color: #728d9b;
+        }
+    }
+    &__item2-2 {
+        padding: 28px 18px 23px 28px;
+        svg {
+            width: 54px;
+            height: 30px;
+            margin-bottom: 25px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 114.5%;
+            /* or 22px */
+
+            letter-spacing: -1px;
+
+            color: #728d9b;
+            svg {
+                width: 10px;
+                height: 16px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__item2-3 {
+        padding: 0 30px;
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+        svg {
+            margin-top: -70px;
+            margin-bottom: 12px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 114.5%;
+            /* or 22px */
+
+            letter-spacing: -1px;
+
+            color: #728d9b;
+        }
+    }
+    &__item3 {
+        padding: 0;
+        background: none;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: top 12px center;
+        display: flex;
+        gap: 35px;
+        .l,
+        .r {
+            height: 100%;
+            width: calc(50% - 17.5px);
+            .whywe__item {
+                background: #f9f9f9;
+                width: 100%;
+                height: 100%;
+                padding: 30px;
+            }
+        }
+        .l {
+            .whywe__item {
+                padding-right: 23px;
+                h2 {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 104%;
+                    /* identical to box height, or 21px */
+                    font-style: italic;
+                    letter-spacing: -1px;
+                    margin-bottom: 10px;
+                    color: #439aca;
+                }
+                p {
+                    font-size: 19px;
+                    line-height: 114.5%;
+                    /* or 22px */
+
+                    letter-spacing: -1px;
+                    margin-bottom: 38px;
+                    color: #728d9b;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    .list-item {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        span {
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 114.5%;
+                            margin-left: 4px;
+                            /* identical to box height, or 21px */
+
+                            text-align: right;
+                            letter-spacing: -1px;
+
+                            color: #439aca;
+                        }
+                    }
+                }
+                p.clean {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .r {
+            .whywe__item {
+                padding: 0;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__item4 {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+@media (max-width: 920px) {
+    .whywe__item1 {
+        background: #f9f9f9;
+        border-radius: 20px;
+    }
+    .whywe__item1 h2 {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 104%;
+        /* identical to box height, or 48px */
+        text-align: left;
+        letter-spacing: -1.5px;
+        margin-bottom: 8px;
+        color: #439ACA;
+        b{
+            font-style: italic;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 104%;
+            /* or 33px */
+            
+            letter-spacing: -1.5px;
+            
+            color: #439ACA;
+        }
+    }
+    .whywe__item2 {
+        flex-direction: column;
+        gap: 14px;
+    }
+    .whywe__item2 .left {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 17px;
+        width: 100%;
+    }
+    .whywe__item2-1 p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 114.5%;
+        /* or 21px */
+        
+        letter-spacing: -1px;
+        
+        color: #728D9B;
+    }
+    .whywe__item2-1 svg {
+        margin-bottom: 8px;
+    }
+    .whywe__item2-2 p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 114.5%;
+        /* or 21px */
+        
+        letter-spacing: -1px;
+        
+        color: #728D9B;
+    }
+    .whywe__item2-2 svg {
+        margin-bottom: 8px;
+    }
+    .whywe__item1 {
+        padding: 28px 18px 23px 28px;
+    }
+    .advantages__item .imgbox {
+        height: 132px !important;
+    }
+    .advantages__list .advantage1 .imgbox {
+        background: url('../../img/madvantage1.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .advantages__list .advantage2 .imgbox {
+        background: url('../../img/madvantage2.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .advantages__list .advantage3 .imgbox {
+        background: url('../../img/madvantage3.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .advantages__list .advantage4 .imgbox {
+        background: url('../../img/madvantage4.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .advantages__list .advantage5 .imgbox {
+        background: url('../../img/madvantage5.png');
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .whywe__item3 .r {
+        display: none;
+    }
+    .whywe__item3 .l {
+        height: 100%;
+        width:100%;
+    }
+    .whywe__item2 .right {
+        width: 100%;
+    }
+    .whywe__item2-3{
+        display: flex;
+        margin-top: 60px;
+        padding-top: 21px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+        margin-bottom: 0px;
+    }
+    .whywe__item2-3 p {
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 114.5%;
+        letter-spacing: -1px;
+        color: #728d9b;
+        height: 64px;
+        
+    }
+    .whywe__item2-3 .center {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+    }   
+    .whywe__item2-3 svg {
+        margin-top: -40px;
+        margin-bottom: 12px;
+        width: 105px;
+        height: 152px;
+    }
+    .whywe__item{
+        width: 100% !important;
+    }
+    .whywe__item3{
+        margin-top: 60px;
+    }
+    .whywe__item4 {
+        display: none;
+    }
+    .whywe__wrapper {
+        padding-bottom: 57px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media (max-width: 1400px) {
+    .whywe .bg {
+        display: none;
+    }
+}

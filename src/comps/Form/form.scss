@@ -1,0 +1,203 @@
+.title__wrapper {
+    display: flex;
+    gap: 17px;
+    span {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 114.5%;
+        /* or 22px */
+
+        letter-spacing: -1px;
+
+        color: #505457;
+    }
+}
+.form {
+    padding-top: 86px;
+    background: url(../../img/form-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 109px;
+    background-position: center;
+    &-wrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    input {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 24px 20px;
+        width: 100% !important;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 17px;
+
+        position: relative;
+        letter-spacing: -0.01em;
+
+        color: #728d9b;
+    }
+    input:focus label {
+        font-size: 50px;
+    }
+
+    .item2 {
+        width: 36.5%;
+    }
+    .item3 {
+        width: calc(100% - 73% - 40px);
+        button {
+            padding: 17px 15px 17px 20px;
+            display: flex;
+            align-items: center;
+            background: #439aca;
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+            justify-content: space-between;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 19px;
+            /* or 100% */
+            transition: 0.2s;
+            letter-spacing: -0.02em;
+
+            color: #ffffff;
+
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        button:hover {
+            transition: 0.2s;
+            background: #52aee0;
+        }
+    }
+}
+.searchformfld {
+    position: relative;
+    width: 36.5%;
+}
+.searchformfld label {
+    position: absolute;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 17px;
+    /* identical to box height, or 89% */
+
+    letter-spacing: -0.01em;
+
+    color: #728d9b;
+
+    color: #728d9b;
+    left: 16px;
+    top: 25px;
+    cursor: text;
+    pointer-events: none;
+}
+.searchformfld input:focus + label,
+.searchformfld input:not(:placeholder-shown) + label {
+    opacity: 1;
+    transform: translateY(-100%) translateX(5px);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 131% */
+
+    letter-spacing: -0.01em;
+
+    color: #728d9b;
+}
+
+.searchformfld input {
+    width: 100%;
+}
+.searchformfld label,
+.searchformfld input {
+    transition: all 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity: 1;
+}
+@media (max-width: 1400px) {
+    .form .item3 button {
+        padding: 10px 10px 10px 12px !important;
+        display: flex;
+        align-items: center;
+        gap: 14px !important;
+        background: #3b9dd3;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 14px !important;
+        line-height: 14px !important;
+        transition: 0.2s;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+    }
+    
+    
+}
+@media (max-width:920px){
+    .title__wrapper {
+        flex-direction: column;
+        gap: 7px;
+    }
+    .form .title {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .title__wrapper span {
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 114.5%;
+        /* or 22px */
+
+        letter-spacing: -1px;
+
+        color: #505457;
+        margin-bottom: 21px;
+        br{
+            display: none;
+        }
+    }
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .searchformfld {
+        position: relative;
+        width: 100%;
+    }
+    .form .item2 {
+        width: 100%;
+    }
+    .form .item3 {
+        width: 100%;
+        button{
+            padding: 14px 14px 14px 16px !important;
+            display: flex;
+            align-items: center;
+            gap: 27px !important;
+            background: #3B9DD3;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 19px !important;
+            line-height: 19px !important;
+            /* or 100% */
+            transition: 0.2s;
+            text-align: center;
+            letter-spacing: -0.02em;
+            
+            color: #FFFFFF;
+        }
+    }
+    .form{
+        background-position: center right -482px;
+    }
+}

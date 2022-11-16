@@ -1,0 +1,174 @@
+.contacts{
+    padding-top: 88px;
+    padding-bottom: 116px;
+    &-wrapper{
+        display: flex;
+        gap: 39px;
+    }
+    &__data{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 476px;
+        &-item{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.05);
+            border-radius: 17px;
+            &-peace{
+                display: flex;
+                align-items: center;
+            }
+            &-peace1{
+                display: flex;
+            }
+        }
+        .item1{
+            padding: 43px 30px 47px 47px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            svg{
+                width: 22px;
+                margin-right: 12px;
+            }
+            a.phone{
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 17px;
+                /* identical to box height, or 81% */
+                
+                letter-spacing: -0.01em;
+                
+                color: #505457;
+                
+            }
+            a.mailto{
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 17px;
+                /* identical to box height, or 81% */
+                
+                letter-spacing: -0.01em;
+                
+                color: #505457;
+                
+            }
+        }
+        .item2{
+            padding: 31px 63px 36px 48px;
+            h3{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 25px;
+                /* identical to box height, or 104% */
+                
+                letter-spacing: -0.01em;
+                margin-bottom: 10px;
+                color: #505457;
+            }
+            svg{
+                margin-right: 16px;
+                min-width: 22px;
+                max-width: 22px;
+            }
+            span{
+                font-size: 19px;
+                line-height: 114%;
+                /* or 22px */
+                
+                letter-spacing: -0.01em;
+                
+                color: #505457;
+                b{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    &__map{
+        width: 890px;
+        height: 492px;
+    }
+    
+}
+@media(max-width:1400px){
+    .contacts__data {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 800px ;
+    }
+}
+@media(max-width:920px){
+    .contacts-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contacts__data {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    .contacts__data .item1 {
+        
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        a{
+            padding: 29px 28px !important;
+            display: flex;
+            gap: 11px !important;
+            width: 100%;
+            align-items: center;
+        }
+    }
+    .contacts__data .item2 {
+        
+        padding: 29px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        a{
+            padding: 29px 28px !important;
+            display: flex;
+            gap: 11px !important;
+            width: 100%;
+            align-items: center;
+        }
+    }
+    .contacts__data .item3 {
+
+            padding: 29px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        a{
+            padding: 29px 28px !important;
+            display: flex;
+            gap: 11px !important;
+            width: 100%;
+            align-items: center;
+        }
+    }
+    .contacts h3{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 104%;
+        /* identical to box height, or 23px */
+        
+        letter-spacing: -1.5px;
+        
+        color: #505457;
+    }
+    .contacts__map {
+        width: 100%;
+        height: 398px;
+    }
+    .contacts {
+        padding-top: 46px;
+        padding-bottom: 116px;
+    }
+}

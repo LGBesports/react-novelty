@@ -1,0 +1,42 @@
+.searchinput {
+    width: calc(100% - 48px) !important;
+    margin: 0 24px;
+
+    border-radius: 8px;
+    padding: 18px 0;
+    padding-left: 47px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 17px;
+    /* identical to box height, or 89% */
+    background: url(../../img/search-lupa.svg) no-repeat;
+    background-size: 32px 32px;
+    background-position: left 9px center;
+    background-color: #f3f3f3;
+    letter-spacing: -0.01em;
+
+    color: #728d9b;
+}
+.searchinput::-webkit-search-cancel-button {
+    content: "";
+    position: relative;
+    background: url(../../img/search-clean.svg);
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    -webkit-appearance: none;
+    background: url(../../img/search-clean.svg), no-repeat;
+    background-size: contain;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+.search {
+    position: relative;
+}
