@@ -34,13 +34,13 @@ const Header = () => {
                         <button className='burger1200'><Burger1200 /><ul className='menu1200'>
                             <li><NavLink to='/about'>О нас</NavLink> </li>
                             <li><NavLink to='/offer'>Что мы предлагаем</NavLink></li>
-                            <li><NavLink to='/sklad'>Склад</NavLink></li>
+                            {/* <li><NavLink to='/sklad'>Склад</NavLink></li> */}
                             <li><NavLink to='/contacts'>Контакты</NavLink></li>
                         </ul></button>
                         <ul className='menu1200'>
                             <li><NavLink to='/about'>О нас</NavLink> </li>
                             <li><NavLink to='/offer'>Что мы предлагаем</NavLink></li>
-                            <li><NavLink to='/sklad'>Склад</NavLink></li>
+                            {/* <li><NavLink to='/sklad'>Склад</NavLink></li> */}
                             <li><NavLink to='/contacts'>Контакты</NavLink></li>
                         </ul>
                     </nav>

@@ -17,7 +17,7 @@ function Burger(props) {
                 <ul className='burger-menu'>
                     <li><NavLink activeclassname='active' onClick={() => props.setTrigger(false)} to='/about'>О нас</NavLink> </li>
                     <li><NavLink activeclassname='active' onClick={() => props.setTrigger(false)} to='/offer'>Что мы предлагаем</NavLink></li>
-                    <li><NavLink activeclassname='active' onClick={() => props.setTrigger(false)} to='/sklad'>Склад</NavLink></li>
+                    {/* <li><NavLink activeclassname='active' onClick={() => props.setTrigger(false)} to='/sklad'>Склад</NavLink></li> */}
                     <li><NavLink activeclassname='active' onClick={() => props.setTrigger(false)} to='/contacts'>Контакты</NavLink></li>
                 </ul>
                 <div className="burger__joinlk"><a href=""><Joinlk />Войти в Личный кабинет</a></div>
